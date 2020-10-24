@@ -1,31 +1,77 @@
 fileFormatVersion: 2
 guid: d6e07008d13fd1347be9d4d36712f269
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Box
-    100002: CellPoint
-    100004: Keyboard
-    100006: light
-    100008: //RootNode
-    100010: BatteryPoint
-    400000: Box
-    400002: CellPoint
-    400004: Keyboard
-    400006: light
-    400008: //RootNode
-    400010: BatteryPoint
-    2100000: No Name
-    2300000: Box
-    2300002: Keyboard
-    2300004: light
-    3300000: Box
-    3300002: Keyboard
-    3300004: light
-    4300000: Keyboard
-    4300002: light
-    4300004: Box
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Box
+  - first:
+      1: 100002
+    second: CellPoint
+  - first:
+      1: 100004
+    second: Keyboard
+  - first:
+      1: 100006
+    second: light
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: BatteryPoint
+  - first:
+      4: 400000
+    second: Box
+  - first:
+      4: 400002
+    second: CellPoint
+  - first:
+      4: 400004
+    second: Keyboard
+  - first:
+      4: 400006
+    second: light
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: BatteryPoint
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: Box
+  - first:
+      23: 2300002
+    second: Keyboard
+  - first:
+      23: 2300004
+    second: light
+  - first:
+      33: 3300000
+    second: Box
+  - first:
+      33: 3300002
+    second: Keyboard
+  - first:
+      33: 3300004
+    second: light
+  - first:
+      43: 4300000
+    second: Keyboard
+  - first:
+      43: 4300002
+    second: light
+  - first:
+      43: 4300004
+    second: Box
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -60,34 +106,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 30
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -97,6 +150,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

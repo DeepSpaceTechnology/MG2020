@@ -1,55 +1,149 @@
 fileFormatVersion: 2
 guid: c51c78964f517ff4485f6f3b4263e117
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Interface_Cell_1
-    100002: Interface_Cell_2
-    100004: Interface_Cell_3
-    100006: Interface_Cell_4
-    100008: //RootNode
-    100010: Interface_Material_1
-    100012: Interface_Material_2
-    100014: Interface_Material_3
-    100016: Interface_Material_4
-    400000: Interface_Cell_1
-    400002: Interface_Cell_2
-    400004: Interface_Cell_3
-    400006: Interface_Cell_4
-    400008: //RootNode
-    400010: Interface_Material_1
-    400012: Interface_Material_2
-    400014: Interface_Material_3
-    400016: Interface_Material_4
-    2100000: No Name
-    2300000: Interface_Cell_1
-    2300002: Interface_Cell_2
-    2300004: Interface_Cell_3
-    2300006: Interface_Cell_4
-    2300008: //RootNode
-    2300010: Interface_Material_1
-    2300012: Interface_Material_2
-    2300014: Interface_Material_3
-    2300016: Interface_Material_4
-    3300000: Interface_Cell_1
-    3300002: Interface_Cell_2
-    3300004: Interface_Cell_3
-    3300006: Interface_Cell_4
-    3300008: //RootNode
-    3300010: Interface_Material_1
-    3300012: Interface_Material_2
-    3300014: Interface_Material_3
-    3300016: Interface_Material_4
-    4300000: NuclearMaterialStore
-    4300002: Interface_Cell_1
-    4300004: Interface_Cell_2
-    4300006: Interface_Cell_3
-    4300008: Interface_Cell_4
-    4300010: Interface_Material_1
-    4300012: Interface_Material_2
-    4300014: Interface_Material_3
-    4300016: Interface_Material_4
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Interface_Cell_1
+  - first:
+      1: 100002
+    second: Interface_Cell_2
+  - first:
+      1: 100004
+    second: Interface_Cell_3
+  - first:
+      1: 100006
+    second: Interface_Cell_4
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: Interface_Material_1
+  - first:
+      1: 100012
+    second: Interface_Material_2
+  - first:
+      1: 100014
+    second: Interface_Material_3
+  - first:
+      1: 100016
+    second: Interface_Material_4
+  - first:
+      4: 400000
+    second: Interface_Cell_1
+  - first:
+      4: 400002
+    second: Interface_Cell_2
+  - first:
+      4: 400004
+    second: Interface_Cell_3
+  - first:
+      4: 400006
+    second: Interface_Cell_4
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: Interface_Material_1
+  - first:
+      4: 400012
+    second: Interface_Material_2
+  - first:
+      4: 400014
+    second: Interface_Material_3
+  - first:
+      4: 400016
+    second: Interface_Material_4
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: Interface_Cell_1
+  - first:
+      23: 2300002
+    second: Interface_Cell_2
+  - first:
+      23: 2300004
+    second: Interface_Cell_3
+  - first:
+      23: 2300006
+    second: Interface_Cell_4
+  - first:
+      23: 2300008
+    second: //RootNode
+  - first:
+      23: 2300010
+    second: Interface_Material_1
+  - first:
+      23: 2300012
+    second: Interface_Material_2
+  - first:
+      23: 2300014
+    second: Interface_Material_3
+  - first:
+      23: 2300016
+    second: Interface_Material_4
+  - first:
+      33: 3300000
+    second: Interface_Cell_1
+  - first:
+      33: 3300002
+    second: Interface_Cell_2
+  - first:
+      33: 3300004
+    second: Interface_Cell_3
+  - first:
+      33: 3300006
+    second: Interface_Cell_4
+  - first:
+      33: 3300008
+    second: //RootNode
+  - first:
+      33: 3300010
+    second: Interface_Material_1
+  - first:
+      33: 3300012
+    second: Interface_Material_2
+  - first:
+      33: 3300014
+    second: Interface_Material_3
+  - first:
+      33: 3300016
+    second: Interface_Material_4
+  - first:
+      43: 4300000
+    second: NuclearMaterialStore
+  - first:
+      43: 4300002
+    second: Interface_Cell_1
+  - first:
+      43: 4300004
+    second: Interface_Cell_2
+  - first:
+      43: 4300006
+    second: Interface_Cell_3
+  - first:
+      43: 4300008
+    second: Interface_Cell_4
+  - first:
+      43: 4300010
+    second: Interface_Material_1
+  - first:
+      43: 4300012
+    second: Interface_Material_2
+  - first:
+      43: 4300014
+    second: Interface_Material_3
+  - first:
+      43: 4300016
+    second: Interface_Material_4
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,34 +178,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 30
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -121,6 +222,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -1,77 +1,215 @@
 fileFormatVersion: 2
 guid: b90e7a43c1c0da1499a87a7e89cd256a
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Can
-    100002: Device
-    100004: //RootNode
-    100006: Interface_Cell_1
-    100008: Interface_Cell_2
-    100010: Interface_Cell_3
-    100012: Interface_Cell_4
-    100014: Interface_Pipe
-    100016: panel_1
-    100018: screen
-    100020: Interface_Material_1
-    100022: Interface_Material_2
-    100024: Interface_Material_3
-    100026: Interface_Material_4
-    400000: Can
-    400002: Device
-    400004: //RootNode
-    400006: Interface_Cell_1
-    400008: Interface_Cell_2
-    400010: Interface_Cell_3
-    400012: Interface_Cell_4
-    400014: Interface_Pipe
-    400016: panel_1
-    400018: screen
-    400020: Interface_Material_1
-    400022: Interface_Material_2
-    400024: Interface_Material_3
-    400026: Interface_Material_4
-    2100000: No Name
-    2300000: Can
-    2300002: Device
-    2300004: Interface_Cell_1
-    2300006: Interface_Cell_2
-    2300008: Interface_Cell_3
-    2300010: Interface_Cell_4
-    2300012: Interface_Pipe
-    2300014: panel_1
-    2300016: screen
-    2300018: Interface_Material_1
-    2300020: Interface_Material_2
-    2300022: Interface_Material_3
-    2300024: Interface_Material_4
-    3300000: Can
-    3300002: Device
-    3300004: Interface_Cell_1
-    3300006: Interface_Cell_2
-    3300008: Interface_Cell_3
-    3300010: Interface_Cell_4
-    3300012: Interface_Pipe
-    3300014: panel_1
-    3300016: screen
-    3300018: Interface_Material_1
-    3300020: Interface_Material_2
-    3300022: Interface_Material_3
-    3300024: Interface_Material_4
-    4300000: Interface_Cell_1
-    4300002: Interface_Cell_2
-    4300004: Interface_Cell_3
-    4300006: Interface_Cell_4
-    4300008: Interface_Pipe
-    4300010: Device
-    4300012: Can
-    4300014: panel_1
-    4300016: screen
-    4300018: Interface_Material_1
-    4300020: Interface_Material_2
-    4300022: Interface_Material_3
-    4300024: Interface_Material_4
-    2186277476908879412: ImportLogs
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Can
+  - first:
+      1: 100002
+    second: Device
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: Interface_Cell_1
+  - first:
+      1: 100008
+    second: Interface_Cell_2
+  - first:
+      1: 100010
+    second: Interface_Cell_3
+  - first:
+      1: 100012
+    second: Interface_Cell_4
+  - first:
+      1: 100014
+    second: Interface_Pipe
+  - first:
+      1: 100016
+    second: panel_1
+  - first:
+      1: 100018
+    second: screen
+  - first:
+      1: 100020
+    second: Interface_Material_1
+  - first:
+      1: 100022
+    second: Interface_Material_2
+  - first:
+      1: 100024
+    second: Interface_Material_3
+  - first:
+      1: 100026
+    second: Interface_Material_4
+  - first:
+      4: 400000
+    second: Can
+  - first:
+      4: 400002
+    second: Device
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: Interface_Cell_1
+  - first:
+      4: 400008
+    second: Interface_Cell_2
+  - first:
+      4: 400010
+    second: Interface_Cell_3
+  - first:
+      4: 400012
+    second: Interface_Cell_4
+  - first:
+      4: 400014
+    second: Interface_Pipe
+  - first:
+      4: 400016
+    second: panel_1
+  - first:
+      4: 400018
+    second: screen
+  - first:
+      4: 400020
+    second: Interface_Material_1
+  - first:
+      4: 400022
+    second: Interface_Material_2
+  - first:
+      4: 400024
+    second: Interface_Material_3
+  - first:
+      4: 400026
+    second: Interface_Material_4
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: Can
+  - first:
+      23: 2300002
+    second: Device
+  - first:
+      23: 2300004
+    second: Interface_Cell_1
+  - first:
+      23: 2300006
+    second: Interface_Cell_2
+  - first:
+      23: 2300008
+    second: Interface_Cell_3
+  - first:
+      23: 2300010
+    second: Interface_Cell_4
+  - first:
+      23: 2300012
+    second: Interface_Pipe
+  - first:
+      23: 2300014
+    second: panel_1
+  - first:
+      23: 2300016
+    second: screen
+  - first:
+      23: 2300018
+    second: Interface_Material_1
+  - first:
+      23: 2300020
+    second: Interface_Material_2
+  - first:
+      23: 2300022
+    second: Interface_Material_3
+  - first:
+      23: 2300024
+    second: Interface_Material_4
+  - first:
+      33: 3300000
+    second: Can
+  - first:
+      33: 3300002
+    second: Device
+  - first:
+      33: 3300004
+    second: Interface_Cell_1
+  - first:
+      33: 3300006
+    second: Interface_Cell_2
+  - first:
+      33: 3300008
+    second: Interface_Cell_3
+  - first:
+      33: 3300010
+    second: Interface_Cell_4
+  - first:
+      33: 3300012
+    second: Interface_Pipe
+  - first:
+      33: 3300014
+    second: panel_1
+  - first:
+      33: 3300016
+    second: screen
+  - first:
+      33: 3300018
+    second: Interface_Material_1
+  - first:
+      33: 3300020
+    second: Interface_Material_2
+  - first:
+      33: 3300022
+    second: Interface_Material_3
+  - first:
+      33: 3300024
+    second: Interface_Material_4
+  - first:
+      43: 4300000
+    second: Interface_Cell_1
+  - first:
+      43: 4300002
+    second: Interface_Cell_2
+  - first:
+      43: 4300004
+    second: Interface_Cell_3
+  - first:
+      43: 4300006
+    second: Interface_Cell_4
+  - first:
+      43: 4300008
+    second: Interface_Pipe
+  - first:
+      43: 4300010
+    second: Device
+  - first:
+      43: 4300012
+    second: Can
+  - first:
+      43: 4300014
+    second: panel_1
+  - first:
+      43: 4300016
+    second: screen
+  - first:
+      43: 4300018
+    second: Interface_Material_1
+  - first:
+      43: 4300020
+    second: Interface_Material_2
+  - first:
+      43: 4300022
+    second: Interface_Material_3
+  - first:
+      43: 4300024
+    second: Interface_Material_4
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -106,34 +244,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 30
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -143,6 +288,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
