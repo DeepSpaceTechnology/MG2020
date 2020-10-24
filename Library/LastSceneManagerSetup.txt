@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MG20102101.unity
+- path: Assets/Scenes/MG20102400.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
